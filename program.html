@@ -1,6 +1,9 @@
 <!doctype html>
 <html lang="en">
   <head>
+    <!-- Styling -->
+     <link href="lab4styles.css" rel="stylesheet" type="text/css"/>
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title> UMBC Program Page </title>
@@ -10,12 +13,13 @@
   
   <body>
     <!-- Title of Website -->
-    <h1>UMBC</h1>
+  <div class="section1">
+    <h1 class="title"> <img src="UMBC_logo.png" alt="umbc logo" width="100"> UMBC</h1>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 
-     <p> College of Engineering and Information Tehnology </p>
-     <h2> Department of Information Systems </h2>
-
+     <p class="p1"> College of Engineering and Information Tehnology </p>
+     <h2 class="head2"> Department of Information Systems </h2>
+  </div>
     <!-- The Whole Navigation Bar -->
 <nav class="navbar navbar-expand-lg bg-light">
 
@@ -35,25 +39,6 @@
         <!-- The Home tab -->
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="#">Home</a>
-        </li>
-    
-        <!-- The IS program for Undergrads tab -->
-        <li class="nav-item">
-          <a class="nav-link activt" aria-current="page" href="#">Undergraduate Program (IS)</a>
-        </li>
-
-        <!-- An Example of using dropdown selection -->
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Contact Us
-          </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">443-123-4567</a></li>
-            <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">jacobs12@umbc.edu</a></li>
-            <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">Have a good day! :D</a></li>
-          </ul>
         </li>
       </ul>
 
@@ -78,10 +63,10 @@
     <p>
       The required program courses for the Bachelor of Science Degree are below.
     </p>
+
     <h4> Current Required Courses </h4>
-    
     <!-- List of Required Courses for IS -->
-    <h6> Information Systems </h6>
+    <h5> Information Systems </h5>
     <ul>
       <li>
         IS 300 - Management Information Systems
@@ -98,7 +83,7 @@
     </ul>
 
     <!-- List of Required Courses for Math and Computer Science -->
-    <h6> Mathematics and Computer Science </h6>
+    <h5> Mathematics and Computer Science </h5>
     <ul>
       <li>
         MATH 155 - Applied Calculus
@@ -115,7 +100,7 @@
     </ul>
 
     <!-- List of Required Courses for Administrative Science -->
-    <h6> Administrative Science </h6>
+    <h5> Administrative Science </h5>
     <ul>
       <li>
         MGMT 210 - The Practice of Management 
@@ -132,6 +117,13 @@
     </ul>
 
     <!-- Other important information about the major -->
+     <h5> Other Important Notes </h5>
+     <p>
+      Students must earn a grade of “C” or better for any course to be applied to the Information Systems major. <br>
+      A student must first complete MATH 155, IS 147, IS 300, and IS 310 to fulfill the gateway requirements. <br>
+      Examples of upper-level electives that could be used to help fulfill the IS major requirements include: IS 303, IS 304, IS 460, IS 461, IS 427, IS 428, IS 430, IS 438, IS 464, IS 471, IS 472, IS 451U, IS 451M, and IS 452, as well as others (see catalog for a full listing). <br>
+      There are also several special courses, including IS 399, IS 478, IS 479, IS 469, IS 397, and IS 467, among others, that cannot be used to satisfy the IS upper-level elective requirement, but that students can use to gain academic credit for internships, coops, and research projects. See your advisor for more information.
+     </p>
     
   </body>
 </html>

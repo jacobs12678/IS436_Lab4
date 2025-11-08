@@ -32,17 +32,17 @@
 #image1 {
   text-align: center;
 }
-#advisor-group, #button-group {
+#advisor-group, #button-group, #contact-group {
   display: flex;
   justify-content: space-around;
   border: 4 px solid gray;
-  padding: 30 px;
-  margin: 30 px;
+  padding: 40 px;
+  margin: 40 px;
 }
 #extra-stuff {
   display: flex;
   justify-content: space-around;
   border: 4 px solid gray;
-  padding: 30 px;
+  padding: 10 px;
   margin-bottom: 30 px;
 }
