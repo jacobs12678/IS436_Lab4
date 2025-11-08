@@ -11,11 +11,6 @@
   color: white;
   text-align: center;
 }
-.button-group {
-  border: 2 px solid white;
-  padding: 10 px;
-  margin: 10 px;
-}
 .title, .head2 {
   color: orange;
   font-style: bold;
@@ -27,14 +22,20 @@
 .section1 {
   background-color: black;
 }
+.texts {
+  font-size: 18 px;
+  text-align: center;
+  margin-left: 30 px;
+  margin-right: 30 px;
+}
 
 #image1 {
   text-align: center;
 }
-#advisor-group {
+#advisor-group, #extra-stuff, #button-group {
   display: flex;
   justify-content: space-around;
-  border: 2 px solid gray;
+  border: 4 px solid gray;
   padding: 10 px;
   margin: 10 px;
 }
