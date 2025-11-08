@@ -4,12 +4,18 @@
   background-color: orange;
   color: black;
   text-align: center;
+  display: inline-block;
+  padding: 10 px 20 px;
+  border-radius: 5 px;
 }
 .contact-button {
   font-style: bold;
   background-color: black;
   color: white;
   text-align: center;
+  display: inline-block;
+  padding: 10 px 20 px;
+  border-radius: 5 px;
 }
 .title, .head2 {
   color: orange;
