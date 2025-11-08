@@ -6,7 +6,7 @@
   text-align: center;
   display: inline-block;
   padding: 10 px 20 px;
-  border-radius: 15 px;
+  border-radius: 10 px;
 }
 .contact-button {
   font-style: bold;
@@ -15,7 +15,7 @@
   text-align: center;
   display: inline-block;
   padding: 10 px 20 px;
-  border-radius: 15 px;
+  border-radius: 10 px;
 }
 .title, .head2 {
   color: orange;
