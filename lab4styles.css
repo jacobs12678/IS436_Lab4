@@ -32,10 +32,17 @@
 #image1 {
   text-align: center;
 }
-#advisor-group, #extra-stuff, #button-group {
+#advisor-group, #button-group {
   display: flex;
   justify-content: space-around;
   border: 4 px solid gray;
-  padding: 10 px;
-  margin: 10 px;
+  padding: 30 px;
+  margin: 30 px;
+}
+#extra-stuff {
+  display: flex;
+  justify-content: space-around;
+  border: 4 px solid gray;
+  padding: 30 px;
+  margin-bottom: 30 px;
 }
