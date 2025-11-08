@@ -1,23 +1,40 @@
 /* CSS classes */
 p.program-button {
-        text-align: center;
-        text-style: bold;
-        background-color: orange;
+  font-style: bold;
+  background-color: orange;
+  color: black;
+  text-align: center;
 }
-      h1.title, h2.head2 {
-        text-color: orange;
-        text-style: bold;
-      }
-      p.p1 {
-        text-color: white;
-      }
-      div.section1 {
-        background-color: black;
-      }
-      div.col-1 {
-        float: left;
-        margin: auto;
-      }
+p.contact-button {
+  font-style: bold;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+p.button-group {
+  border: 2 px solid white;
+  padding: 10 px;
+  margin: 10 px;
+}
+p.title, p.head2 {
+  color: orange;
+  font-style: bold;
+}
+p.p1 {
+  color: white;
+}
 
-/* Others */
-/**/
+p.section1 {
+  background-color: black;
+}
+
+#image1 {
+  text-align: center;
+}
+#advisor-group {
+  display: flex;
+  justify-content: space-around;
+  border: 2 px solid gray;
+  padding: 10 px;
+  margin: 10 px;
+}
