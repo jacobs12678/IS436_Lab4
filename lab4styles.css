@@ -1,0 +1,23 @@
+/* CSS classes */
+p.program-button {
+        text-align: center;
+        text-style: bold;
+        background-color: orange;
+}
+      h1.title, h2.head2 {
+        text-color: orange;
+        text-style: bold;
+      }
+      p.p1 {
+        text-color: white;
+      }
+      div.section1 {
+        background-color: black;
+      }
+      div.col-1 {
+        float: left;
+        margin: auto;
+      }
+
+/* Others */
+/**/

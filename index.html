@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Implemented Stylesheet -->
+    <link href="lab4styles.css" rel="stylesheet" type="text/css"/>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> UMBC Home Page </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  </head>
+
+  
+  <body>
+    <!-- Title of Website -->
+  <div class="section1">
+    <h1 class="title"> <img src="UMBC_logo.png" alt="umbc logo" width="100"> UMBC</h1>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+
+     <p class="p1"> College of Engineering and Information Tehnology </p>
+     <h2 class="head2"> Department of Information Systems </h2>
+  </div>
+    <!-- The Whole Navigation Bar -->
+<nav class="navbar navbar-expand-lg bg-light">
+
+  <div class="container-fluid">
+    <!-- Maybe you can use the <a> tag for a hyperlink to get to the different web page -->
+    <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+
+    <!-- Buttons for all the different context to click on -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <!-- An Unordered List for the Navigation Bar -->
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+        <!-- The Home tab -->
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+    
+        <!-- The IS program for Undergrads tab -->
+        <li class="nav-item">
+          <a class="nav-link activt" aria-current="page" href="#">Undergraduate Program (IS)</a>
+        </li>
+
+        <!-- An Example of using dropdown selection -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Contact Us
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">443-123-4567</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">jacobs12@umbc.edu</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Have a good day! :D</a></li>
+          </ul>
+        </li>
+      </ul>
+
+      <!-- Form for the Search Bar -->
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+  
+      <!-- Place a picture source here! (if possible)-->
+
+    </div>
+  </div>
+</nav>
+
+<!-- Container for the side part of the Website -->
+<div class="col-1"> 
+  <div>
+     <div>
+      <h4> Location </h4> 
+      <p> ITE Building Suite 404  </p>
+     </div>
+     <div>
+      <h4> Contact Us </h4>
+      <p> 443-123-4567 <br> jacobs12@umbc.edu </p>
+     </div>
+
+    <div></div>
+
+    <div>
+      <p>Welcome to the Department of Information Systems at UMBC. Our interdisciplinary program helps students develop in demand skills, preparing them for careers in IT and IS. Located near technology hubs, our suburban campus is an exciting place to be for students in tech. With a variety of degree programs to choose from, we offer programs designed to give you options for applying information systems to your career. To learn more, please contact us with any questions.</p>
+    </div>
+  </div>
+</div>
+    
+<!-- Button for Bachelors Program -->
+ <button class="program-button" type="submit">
+  Bachelor Programs
+ </button>
+
+  </body>
+</html>
